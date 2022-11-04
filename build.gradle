@@ -28,7 +28,7 @@ Example:
 project.ext.myExercises = [
         "strategy": "se1.hu3.strategy.PlaneStrategyApp",
         "factory": "se1.hu3.factory.ScreenFactoryApp",
-        "singleton" : "se1.hu3.singleton.MacAdressSingletonApp",
+        "singleton" : "se1.hu3.singleton.MacAddressSingletonApp",
         "adapter" : "se1.hu3.adapter.HeissgetraenkemacherAdapterApp",
         "composite" : "se1.hu3.composite.ListCompositeApp",
 ]

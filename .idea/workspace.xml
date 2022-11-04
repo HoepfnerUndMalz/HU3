@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/HeissgetraenkemacherAdapterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/ListCompositeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/ScreenFactoryApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAdressSingletonApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/PlaneStrategyApp.java" afterDir="false" />
+    <list default="true" id="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" name="Changes" comment="First for HU3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddressSingletonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/HeissgetraenkemacherAdapterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/HeissgetraenkemacherAdapterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/ListCompositeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/ListCompositeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAdressSingletonApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/PlaneStrategyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/PlaneStrategyApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +49,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "/home/christine/IdeaProjects/SE/HU3/src/main/java/se1/hu3",
+    "last_opened_file_path": "/home/christine/IdeaProjects/SE/HU3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -74,8 +68,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667295758590</updated>
-      <workItem from="1667295759925" duration="2934000" />
+      <workItem from="1667295759925" duration="6793000" />
+      <workItem from="1667302565358" duration="478000" />
+      <workItem from="1667311663263" duration="28000" />
+      <workItem from="1667553688303" duration="1302000" />
     </task>
+    <task id="LOCAL-00001" summary="First for HU3">
+      <created>1667298728816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667298728816</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First for HU3">
+      <created>1667298791148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667298791148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First for HU3" />
+    <option name="LAST_COMMIT_MESSAGE" value="First for HU3" />
   </component>
 </project>
