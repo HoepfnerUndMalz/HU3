@@ -4,7 +4,7 @@ public class HeissgetraenkemacherAdapterApp {
     public static void main(String[] args) {
         {
             Kaffee melange = new Kaffee();
-            Kakaozubereitung kakao1 = new Kakao();
+            Kakaozubereitung kakao = new Kakao();
 
             // kakao wird in den kakaoadapter gegeben um wie ein kaffee zu funktionieren
             Kakaozubereitung kakaoAdapter = new KakaoAdapter(melange);
@@ -16,9 +16,9 @@ public class HeissgetraenkemacherAdapterApp {
             melange.kaffeeAusgeben();
 
             System.out.println("Kakao...");
-            kakao1.pulvermengeBestimmen();
-            kakao1.mitWasserVermischen();
-            kakao1.kakaoAusgeben();
+            kakao.pulvermengeBestimmen();
+            kakao.mitWasserVermischen();
+            kakao.kakaoAusgeben();
 
             // Kakao verhält sich wie ein Kaffee
             System.out.println("Kakao mittels Kakaoadapter...");
@@ -46,18 +46,22 @@ public class HeissgetraenkemacherAdapterApp {
 
     static class Kaffee implements Kaffeezubereitung {
         // kaffee machen
+        @Override
         public void kaffeebohnenRoesten() {
             System.out.println("Bohnen werden geröstet");
         }
 
+        @Override
         public void bohnenMahlen() {
             System.out.println("Bohnen werden gemahlen");
         }
 
+        @Override
         public void wasserAufgiessen() {
             System.out.println("Wasser wird aufgegossen");
         }
 
+        @Override
         public void kaffeeAusgeben() {
             System.out.println("Kaffee wird ausgegeben");
             System.out.println("");
@@ -66,13 +70,17 @@ public class HeissgetraenkemacherAdapterApp {
 
     static class Kakao implements Kakaozubereitung {
         // kakao machen
+        @Override
         public void pulvermengeBestimmen() {
             System.out.println("Pulvermenge wird bestimmt");
         }
+
+        @Override
         public void mitWasserVermischen() {
             System.out.println("Wasser wird mit Kakao vermischt");
         }
 
+        @Override
         public void kakaoAusgeben() {
             System.out.println("Kakao wird ausgegeben");
             System.out.println();
@@ -88,9 +96,8 @@ public class HeissgetraenkemacherAdapterApp {
             this.kaffee = kaffee;
         }
 
+        // drei der kaffee methoden lassen sich auch für kakao verwenden
         public void pulvermengeBestimmen() {
-            // umsetzung
-            // translate the methods appropriately
             kaffee.bohnenMahlen();
         }
 

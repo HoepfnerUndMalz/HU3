@@ -4,15 +4,15 @@ public class PlaneStrategyApp {
     public static void main(String[] args) {
 
         Flugzeug flugzeug = new Flugzeug("Innsbruck", "Wien");
+        Strategy luft = new SteuernLuft();
+        Strategy boden = new SteuernBoden();
 
-
-        Context context = new Context(new LenkenBoden());
-        context.executeStrategy(10);
+        Strategy steuern = boden;
+        steuern.steuern(20.03);
 
         flugzeug.starten();
-
-        context = new Context(new LenkenLuft());
-        context.executeStrategy(10);
+        steuern = luft;
+        steuern.steuern(10.03);
 
         flugzeug.landen();
     }
@@ -47,29 +47,5 @@ class Starten implements Strategy {
     }
 }
 
-class LenkenBoden implements Strategy {
-    @Override
-    public void steuern(double winkel) {
-        System.out.println("Flugezeug am Boden um " + winkel + " gelenkt");
-    }
-}
 
-class LenkenLuft implements Strategy {
-    @Override
-    public void steuern(double winkel) {
-        System.out.println("Flugzeug Kursaenderung um " + winkel);
-    }
-}
 
-class Context {
-    private Strategy strategy;
-
-    public Context(Strategy strategy) {
-        this.strategy = strategy;
-    }
-
-    public void executeStrategy(double winkel) {
-        strategy.steuern(winkel);
-    }
-
-}
