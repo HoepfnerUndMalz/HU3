@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" name="Changes" comment="Safety, Singleton, Adapter ready">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/Automat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/GetraenkAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/Kaffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/Kaffeezubereitung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/Kakao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/Kakaozubereitung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/CustomMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/DesignMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/GamingMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/OfficeMonitor.java" afterDir="false" />
+    <list default="true" id="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" name="Changes" comment="Safety, Singleton, Adapter, factory ready">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Fahrbetriebsmittel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Gondelbahn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/LiftCompositeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Skigebiet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/HeissgetraenkemacherAdapterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/adapter/HeissgetraenkemacherAdapterApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/ScreenFactoryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/ScreenFactoryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/ListCompositeApp.java" beforeDir="false" />
     </list>
     <list id="97e87cb2-c900-4731-aa7e-853aa9a84e59" name="Changes by hanna" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/PlaneStrategyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/PlaneStrategyApp.java" afterDir="false" />
@@ -54,23 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_directory_selection": "/home/christine/IdeaProjects/SE/HU3/src/main/java/se1/hu3",
-    "last_opened_file_path": "/home/christine/IdeaProjects/SE/HU3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/christine/IdeaProjects/SE/HU3/src/main/java/se1/hu3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/christine/IdeaProjects/SE/HU3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,7 +76,9 @@
       <workItem from="1667302565358" duration="478000" />
       <workItem from="1667311663263" duration="28000" />
       <workItem from="1667553688303" duration="2213000" />
-      <workItem from="1667681137255" duration="15309000" />
+      <workItem from="1667681137255" duration="15371000" />
+      <workItem from="1667696554688" duration="45000" />
+      <workItem from="1667756076601" duration="2854000" />
     </task>
     <task id="LOCAL-00001" summary="First for HU3">
       <created>1667298728816</created>
@@ -120,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667686944482</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Safety, Singleton, Adapter, factory ready">
+      <created>1667696481392</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667696481392</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +143,7 @@
     <MESSAGE value="First for HU3" />
     <MESSAGE value="Safety, Singleton, Adapter ready (always one file -&gt; .java files not seperated)" />
     <MESSAGE value="Safety, Singleton, Adapter ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Safety, Singleton, Adapter ready" />
+    <MESSAGE value="Safety, Singleton, Adapter, factory ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Safety, Singleton, Adapter, factory ready" />
   </component>
 </project>

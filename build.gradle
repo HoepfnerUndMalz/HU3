@@ -30,7 +30,7 @@ project.ext.myExercises = [
         "factory": "se1.hu3.factory.ScreenFactoryApp",
         "singleton" : "se1.hu3.singleton.MacAddressSingletonApp",
         "adapter" : "se1.hu3.adapter.HeissgetraenkemacherAdapterApp",
-        "composite" : "se1.hu3.composite.ListCompositeApp",
+        "composite" : "se1.hu3.composite.LiftCompositeApp",
 ]
 
 //project.ext.myassignments.put("myelement3", "myvalue3")
