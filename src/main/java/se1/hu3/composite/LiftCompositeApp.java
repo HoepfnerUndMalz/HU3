@@ -21,10 +21,13 @@ public class LiftCompositeApp {
         stubaierGletscher.addNode(schaufeljochbahn);
 
         stubaierGletscher.startupAll();
-        System.out.println("\nStarker Wind kommt auf.");
+        System.out.println("\nWind kommt auf.");
 
         eisgratbahn.setFahrgeschwindigkeit(5);
         schaufeljochbahn.setFahrgeschwindigkeit(4);
+
+//       System.out.println("\nWind wird staerker, weitere Sicherheitsmassnahmen erforderlich.");
+//       Ausprobieren einzelne Gondel garagieren.
 
         System.out.println("\nEs ist Abend.");
         stubaierGletscher.shutdownAll();

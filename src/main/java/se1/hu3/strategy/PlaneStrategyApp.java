@@ -15,37 +15,12 @@ public class PlaneStrategyApp {
         steuern.steuern(10.03);
 
         flugzeug.landen();
+        steuern = boden;
+        steuern.steuern(15.80);
+
     }
 }
 
-class Flugzeug {
-    String startFlughafen;
-    String zielFlughafen;
-
-    public Flugzeug(String startFlughafen, String zielFlughafen) {
-        this.startFlughafen = startFlughafen;
-        this.zielFlughafen = zielFlughafen;
-    }
-
-    public void starten() {
-        System.out.println("Taking off from " + startFlughafen);
-    }
-
-    public void landen() {
-        System.out.println("Landung in " + zielFlughafen + " geglueckt");
-    }
-}
-
-interface Strategy {
-    public void steuern(double winkel);
-}
-
-class Starten implements Strategy {
-    @Override
-    public void steuern(double winkel) {
-//        return winkel;
-    }
-}
 
 
 
