@@ -22,7 +22,9 @@ import java.util.List;
 public abstract class Node {
 
     private static int idCounter=1000;  // zur Erzeugung von unique ID's
-    protected static final int getUniqueId() { return ++idCounter; } // nicht threadsafe!
+    protected static final int getUniqueId() {
+        return ++idCounter; // nicht threadsafe!
+    }
 
     private int id;
     private String name;
@@ -106,7 +108,7 @@ public abstract class Node {
         // Alternative 1 mit forEach und Lambda Funktion
         // childNodes.forEach(childNodes -> { childNodes.printNodes();} );
 
-        // Alterntive 2	mit forEach und Method Reference Syntax
+        // Alternative 2	mit forEach und Method Reference Syntax
         // childNodes.forEach(Node::printNodes);
     }
 

@@ -19,6 +19,7 @@ public class MacAddress {
 
     //Quelle:
     synchronized public static void getMacAddress() {
+        // aus dem internet kopiert, leider finde ich die quelle nicht mehr
         String[] Mac = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
         Random rd = new Random();
         rd.nextInt(15);

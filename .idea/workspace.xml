@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" name="Changes" comment="Safety, Singleton, Adapter, factory ready">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Fahrbetriebsmittel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Gondelbahn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/LiftCompositeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Skigebiet.java" afterDir="false" />
+    <list default="true" id="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/factory/Monitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/ListCompositeApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/LiftCompositeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/LiftCompositeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddressSingletonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddressSingletonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/Flugzeug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/Flugzeug.java" afterDir="false" />
     </list>
-    <list id="97e87cb2-c900-4731-aa7e-853aa9a84e59" name="Changes by hanna" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/PlaneStrategyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/strategy/PlaneStrategyApp.java" afterDir="false" />
+    <list id="97e87cb2-c900-4731-aa7e-853aa9a84e59" name="Changes by hanna" comment="Changes by hanna">
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/LiftCompositeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/composite/LiftCompositeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/se1/hu3/singleton/MacAddress.java">
+      <ranges>
+        <range start1="19" end1="20" start2="19" end2="19" changelist="97e87cb2-c900-4731-aa7e-853aa9a84e59" />
+        <range start1="21" end1="21" start2="20" end2="21" changelist="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/se1/hu3/composite/LiftCompositeApp.java">
+      <ranges>
+        <range start1="10" end1="11" start2="10" end2="11" changelist="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" />
+        <range start1="17" end1="18" start2="17" end2="18" changelist="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" />
+        <range start1="23" end1="23" start2="23" end2="24" changelist="97e87cb2-c900-4731-aa7e-853aa9a84e59" />
+        <range start1="24" end1="25" start2="25" end2="25" changelist="97e87cb2-c900-4731-aa7e-853aa9a84e59" />
+        <range start1="27" end1="30" start2="27" end2="27" changelist="011b0987-6f66-4fda-a46c-c8e84a9d0c1e" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +95,9 @@
       <workItem from="1667553688303" duration="2213000" />
       <workItem from="1667681137255" duration="15371000" />
       <workItem from="1667696554688" duration="45000" />
-      <workItem from="1667756076601" duration="2854000" />
+      <workItem from="1667756076601" duration="3265000" />
+      <workItem from="1667813893237" duration="1158000" />
+      <workItem from="1667848669026" duration="3879000" />
     </task>
     <task id="LOCAL-00001" summary="First for HU3">
       <created>1667298728816</created>
@@ -122,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667696481392</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final">
+      <created>1667759048332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667759048332</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changes by hanna">
+      <created>1667759390035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667759390035</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +177,8 @@
     <MESSAGE value="Safety, Singleton, Adapter ready (always one file -&gt; .java files not seperated)" />
     <MESSAGE value="Safety, Singleton, Adapter ready" />
     <MESSAGE value="Safety, Singleton, Adapter, factory ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Safety, Singleton, Adapter, factory ready" />
+    <MESSAGE value="final" />
+    <MESSAGE value="Changes by hanna" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by hanna" />
   </component>
 </project>

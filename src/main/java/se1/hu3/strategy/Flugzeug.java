@@ -14,7 +14,7 @@ public class Flugzeug {
     }
 
     public void landen() {
-        System.out.println("Gelandet in " + zielFlughafen + " geglueckt");
+        System.out.println("Gelandet in " + zielFlughafen);
     }
 
 
